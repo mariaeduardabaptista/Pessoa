@@ -1,4 +1,5 @@
 package Programas;
+import Classe.Aluno;
 
 public class Programas {
     public static void main(String[] args) {
