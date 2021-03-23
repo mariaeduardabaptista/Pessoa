@@ -6,13 +6,15 @@ public class Programas {
 
         Aluno aluno = new Aluno("duda", "12345");
         
-        aluno.setEndereco("travessa arlindo, 819");
-        aluno.setTelefone("2345678");
-        aluno.setMatricula("678");
+        aluno.setEndereco(" travessa arlindo, 819 ");
+        aluno.setTelefone(" 2345678 ");
+        aluno.setMatricula(" 678 ");
+        aluno.setCpf(" 12345");
 
         System.out.println("pessoa:" + aluno.getNome());
         System.out.println("endereço:" + aluno.getEndereco());
         System.out.println("Telefone" + aluno.getTelefone());
+        System.out.println("Cpf" + aluno.getCpf());
 
     
 }
