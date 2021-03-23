@@ -4,12 +4,11 @@ import Classe.Aluno;
 public class Programas {
     public static void main(String[] args) {
 
-        Aluno aluno = new Aluno("duda", "12345");
+        Aluno aluno = new Aluno(" duda ", " 12345 ", " 123456 ");
         
         aluno.setEndereco(" travessa arlindo, 819 ");
         aluno.setTelefone(" 2345678 ");
-        aluno.setMatricula(" 678 ");
-        aluno.setCpf(" 12345");
+    
 
         System.out.println("pessoa:" + aluno.getNome());
         System.out.println("endereço:" + aluno.getEndereco());
